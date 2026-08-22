@@ -1,0 +1,6 @@
+first_num=int(input("Enter 1st value"))
+sec_num=int(input("Enter 2nd value"))
+print("Sum: ",first_num+sec_num)
+print("Difference: ",first_num-sec_num)
+print("Product: ",first_num*sec_num)
+print("Division: ",first_num/sec_num)
