@@ -1,0 +1,6 @@
+file=open("namess.txt","w")
+file.write("Shiva\nKrishna\nHanuman\nGanapathi")
+file.close()
+file=open("namess.txt","r")
+names=file.read().split()
+print(len(names))

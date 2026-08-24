@@ -1,0 +1,5 @@
+file=open("students.txt","w")
+file.write("Thara\nRaju\nVasavi\nSushma\nDeeksha")
+file=open("students.txt","r")
+names=file.read()
+print(names)

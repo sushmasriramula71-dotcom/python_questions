@@ -1,0 +1,5 @@
+file=open("numberss.txt","w")
+file.write("1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n")
+file=open("numberss.txt","r")
+numbers=file.read()
+print(numbers)
